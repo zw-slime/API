@@ -1,0 +1,190 @@
+[
+  {"id":1,"sectionId":"s1.1","content":[
+				  {
+				      "article":"深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+				      "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}				
+				  ]
+  },
+  
+  {"id":2,"sectionId":"s1.1.1","content":[
+  				{"article":"在 Bootstrap 2 中，我们对框架中的某些关键部分增加了对移动设备友好的样式。而在 Bootstrap 3 中，我们重写了整个框架，使其一开始就是对移动设备友好的。这次不是简单的增加一些可选的针对移动设备的样式，而是直接融合进了框架的内核中。也就是说，Bootstrap 是移动设备优先的。针对移动设备的样式融合进了框架的每个角落，而不是增加一个额外的文件。",
+				  "code":""}
+				  ]
+  },
+  
+  {"id":3,"sectionId":"s1.1.2","content":[
+			  {
+			  "article":"1为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"},
+			  {
+			  "article":"2为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"}
+			  ]
+	},
+ 
+  {"id":4,"sectionId":"s1.1.3","content":[
+  			{"article":"1在移动设备浏览器上，通过为视口（viewport）设置 meta 属性为 user-scalable=no 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！",
+  				"code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+			{"article":"2在移动设备浏览器上，通过为视口（viewport）设置 meta 属性为 user-scalable=no 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+  			]
+  },
+ 
+  {"id":5,"sectionId":"s1.2","content":[
+		  {"article":"1深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"},
+		  {"article":"2深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}
+		  ]
+  },
+  
+  {"id":6,"sectionId":"s1.2.1","content":[
+		  {"article":"1Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+		  ]
+},
+  
+  {"id":7,"sectionId":"s1.2.2","content":[
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":8,"sectionId":"s1.2.3","content":[
+		  {"article":"1Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+		  ]
+},
+  {"id":9,"sectionId":"s1.3","content":[
+		  {"article":"1深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}		  
+		  ]
+  },
+  {"id":10,"sectionId":"s1.3.1","content":[
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":11,"sectionId":"s1.3.2","content":[
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":12,"sectionId":"s1.3.3","content":[
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":13,"sectionId":"s1.3.4","content":[
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":14,"sectionId":"s2.1","content":[
+				  {
+				      "article":"21111深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+				      "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}				
+				  ]
+  },
+  
+  {"id":15,"sectionId":"s2.1.1","content":[
+  				{"article":"2在 Bootstrap 2 中，我们对框架中的某些关键部分增加了对移动设备友好的样式。而在 Bootstrap 3 中，我们重写了整个框架，使其一开始就是对移动设备友好的。这次不是简单的增加一些可选的针对移动设备的样式，而是直接融合进了框架的内核中。也就是说，Bootstrap 是移动设备优先的。针对移动设备的样式融合进了框架的每个角落，而不是增加一个额外的文件。",
+				  "code":""}
+				  ]
+  },
+  
+  {"id":16,"sectionId":"s2.1.2","content":[
+			  {
+			  "article":"2为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"},
+			  {
+			  "article":"2为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"}
+			  ]
+	},
+ 
+  {"id":17,"sectionId":"s2.1.3","content":[
+  			{"article":"2在移动设备浏览器上，通过为视口（viewport）设置 meta 属性为 user-scalable=no 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！",
+  				"code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+			{"article":"2在移动设备浏览器上，通过为视口（viewport）设置 meta 属性为 user-scalable=no 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！",
+			  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+  			]
+  },
+ 
+  {"id":18,"sectionId":"s2.2","content":[
+		  {"article":"2深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"},
+		  {"article":"2深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}
+		  ]
+  },
+  
+  {"id":19,"sectionId":"s2.2.1","content":[
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+		  ]
+},
+  
+  {"id":20,"sectionId":"s2.2.2","content":[
+		  {"article":"2为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":21,"sectionId":"s2.2.3","content":[
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"},
+		  {"article":"2Bootstrap 排版、链接样式设置了基本的全局样式。分别是：为 body 元素设置 background-color: #fff;使用 @font-family-base、@font-size-base 和 @line-height-base a变量作为排版的基本参数为所有链接设置了基本颜色 @link-color ，并且当链接处于 :hover 状态时才添加下划线这些样式都能在 scaffolding.less 文件中找到对应的源码。",
+		  "code":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"}
+		  ]
+},
+  {"id":22,"sectionId":"s2.3","content":[
+		  {"article":"2深入了解 Bootstrap 底层结构的关键部分，包括我们让 web 开发变得更好、更快、更强壮的最佳实践。",
+		  "code":"<!DOCTYPE html>\n<html lang=\"zh-CN\">\n...\n</html>"}		  
+		  ]
+  },
+  {"id":24,"sectionId":"s2.3.1","content":[
+		  {"article":"2为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":25,"sectionId":"s2.3.2","content":[
+		  {"article":"2为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":25,"sectionId":"s2.3.3","content":[
+		  {"article":"2为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+},
+{"id":27,"sectionId":"s2.3.4","content":[
+		  {"article":"2为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"},
+		  {"article":"为了增强跨浏览器表现的一致性，我们使用了 Normalize.css，这是由 Nicolas Gallagher 和 Jonathan Neal 维护的一个CSS 重置样式库。",
+		  "code":"<div class=\"container\"><br>...</div>"}
+		  ]
+}
+]

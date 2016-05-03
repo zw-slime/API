@@ -1,0 +1,37 @@
+a:focus, a:hover{text-decoration: none;}
+.wrap{display: flex;margin-bottom: 20px;;}
+.navbar-inverse .navbar-brand{background: url(../img/logo.png) no-repeat;padding-left: 90px;margin-right: 50px;color:#fff;}
+.banner{background: url(../img/banner.png) repeat-x;margin-top: 50px;height: 200px;color:#fff;text-align: center;}
+.banner h2{margin-top: 50px;}
+.sub-nav{height: 100%;float: left;position: relative;}
+.sub-nav>ul{padding:10px 20px 0px 10px;background-color: #f5f5f5;border:1px solid #ccc;border-radius: 5px;height: auto;margin-top: 20px;width:248px;height: auto;padding-bottom: 180px;}
+@media screen and (max-width: 1000px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .sub-nav>ul {
+    display: none;
+  }
+  .content {margin-top: 20px;}
+}
+.fixed{position: fixed;top:50px;}
+.sub-nav>ul>li ul{list-style: none;display: none;}
+.sub-nav>ul>li ul li{margin:5px;}
+.sub-nav>ul>li ul a{color:#555;font-size: 12px;}
+.sub-nav>ul>li{list-style:none;padding: 5px 0px;}
+.sub-nav>ul>li a{color:#333;padding:2px 20px;}
+.sub-nav>ul>li>a{padding:5px 20px;}
+.sub-nav>ul>li.active>a{color:#ce4844;border-left: 2px solid #ce4844;}
+.sub-nav>ul>li:hover>a{color:#ce4844;}
+.sub-nav>ul>li>ul>li.active>a{color:#4f9fcf;border-left: 1px solid #4f9fcf;}
+.sub-nav>ul>li>ul>li:hover>a{color:#4f9fcf;}
+.content{height: auto;float: right;}
+.detail h2{border-bottom: 1px solid #ccc;font-weight: bold;}
+.detail p{text-indent: 2em;line-height: 30px;}
+.detail{margin:0px 20px;margin-top: -30px;}
+.detail>div{margin-top: 50px;}
+.detail pre{padding: 0;margin-top: 0;margin-bottom: 0;word-break: normal;white-space: nowrap;
+position: relative;}
+.detail pre code{float: left;vertical-align: middle;padding: 10px;}
+.copybtn{position: absolute;top:0px;right:0px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;background: #fff;padding:5px;border-radius: 3px;}
+/*.copybtn:hover{background: #337ab7;}
+.copybtn:hover a{color: #fff;}*/
+footer{background-color: #333;height: 60px;line-height: 60px;}
+footer p{text-align: center;color:#fff;}
